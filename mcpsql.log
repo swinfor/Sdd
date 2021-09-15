@@ -1,0 +1,34 @@
+2021-08-23 10:23:38,080 1326 [main] INFO  sw.Main - Starting Main v21.7.8 using Java 1.8.0_301 on LAPTOP-D6JBGO82 with PID 19292 (D:\projects\sdd\Sdd.war started by luiza in D:\projects\sdd)
+2021-08-23 10:23:38,083 1329 [main] INFO  sw.Main - No active profile set, falling back to default profiles: default
+2021-08-23 10:23:39,663 2909 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-23 10:23:40,002 3248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 323 ms. Found 15 JPA repository interfaces.
+2021-08-23 10:23:41,267 4513 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8092 (http)
+2021-08-23 10:23:41,309 4555 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2021-08-23 10:23:41,310 4556 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-23 10:23:41,311 4557 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-23 10:23:44,719 7965 [main] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-08-23 10:23:45,192 8438 [main] INFO  o.a.c.c.C.[.[localhost].[/Sdd] - Initializing Spring embedded WebApplicationContext
+2021-08-23 10:23:45,192 8438 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6998 ms
+2021-08-23 10:23:45,425 8671 [main] INFO  j.e.r.webcontainer.jsf.config - Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context '/Sdd'
+2021-08-23 10:23:46,161 9407 [main] INFO  j.e.r.webcontainer.jsf.application - JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2021-08-23 10:23:47,798 11044 [main] INFO  o.p.w.PostConstructApplicationEventListener - Running on PrimeFaces 8.0
+2021-08-23 10:23:48,132 11378 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-23 10:23:48,161 11407 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-23 10:23:48,959 12205 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-23 10:23:49,045 12291 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-23 10:23:49,182 12428 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-23 10:23:49,185 12431 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-08-23 10:23:49,431 12677 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-23 10:23:49,684 12930 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle8iDialect
+2021-08-23 10:23:50,407 13653 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2021-08-23 10:23:50,459 13705 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8092 (http) with context path '/Sdd'
+2021-08-23 10:23:50,463 13709 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-08-23 10:24:06,998 30244 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-23 10:24:07,010 30256 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-23 10:24:07,940 31186 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-08-23 10:24:07,954 31200 [main] INFO  sw.Main - Started Main in 30.635 seconds (JVM running for 31.589)
+2021-08-23 10:24:09,004 32250 [http-nio-8092-exec-2] INFO  o.a.c.c.C.[.[localhost].[/Sdd] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-23 10:24:27,732 50978 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-23 10:24:27,734 50980 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-23 10:24:27,735 50981 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-23 10:24:27,751 50997 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

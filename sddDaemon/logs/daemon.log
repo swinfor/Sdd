@@ -1,0 +1,24 @@
+15-08-2021 11:10:42: ************************************
+15-08-2021 11:10:42: *       SddDaemon started          *
+15-08-2021 11:10:42: *          Version 21.7.5           *
+15-08-2021 11:10:42: ************************************
+15-08-2021 11:10:42: 
+15-08-2021 11:10:42: Environment Selected=DEVELOPMENT
+15-08-2021 11:10:42: Maximum number of simultaneos runs=2
+15-08-2021 23:10:42: configDir persistence=\projects\setup/sdd.properties
+15-08-2021 23:10:42: Using sdd.properties from \projects\setup
+15-08-2021 23:10:42:     url=jdbc:oracle:thin:@localhost:1521:xe
+15-08-2021 23:10:47:   Timeout Pool Started 
+15-08-2021 11:11:28: Background Query Selected. Id:24
+15-08-2021 23:11:28: MCPSQLParameter - SWDIR_SETUP=D:\projects\setup
+15-08-2021 23:11:28: MCPSQLParameter - 192.168.16.5-USER01
+15-08-2021 11:11:28: Starting background query 24
+15-08-2021 23:11:47:   Timeout Pool: Connection selected-BTST
+15-08-2021 23:11:47:   Timeout Pool: (24) BTST (Mix=0) timeout defined:30 in use since:2021-08-15 23:11:28.164 interval:0.33 Timeout:30
+15-08-2021 11:11:50: Database BTST opened for id 24, MixNum=0
+15-08-2021 11:11:55: Query for id 24 executed, starting to fetch records:select * from clien
+15-08-2021 11:11:55: Query id 24, file to be created:D:\projects\files/24.csv
+15-08-2021 11:11:55: Query id 24, reading records
+15-08-2021 11:11:55: End of resultset = 7 records
+15-08-2021 11:11:55: Query id 24, closing file D:\projects\files/24.csv
+15-08-2021 11:11:55: Database BTST closed for id 24
